@@ -22,8 +22,8 @@ before_install:
 - bundle install
 
 install:
-- pod repo update --silent
-- pod install
+# - pod repo update --silent
+# - pod install
 
 script:
 - fastlane testLane
