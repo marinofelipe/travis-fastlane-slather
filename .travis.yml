@@ -22,4 +22,4 @@ before_install:
 - bundle install
 
 script:
-- fastlane scan
+- fastlane testLane
