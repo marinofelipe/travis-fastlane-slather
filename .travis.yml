@@ -21,13 +21,5 @@ before_install:
 - gem install cocoapods # Since Travis is not always on latest version
 - bundle install
 
-install:
-# - pod repo update --silent
-# - pod install
-
 script:
-- xcrun simctl list
-- fastlane testLane
-
-after_success: 
-- cd $TRAVIS_BUILD_DIR && slather
+- fastlane scan

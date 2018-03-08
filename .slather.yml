@@ -1,7 +1,7 @@
 # .slather.yml
 
-# ci_service: travis_ci
-# coverage_service: coveralls
+ci_service: travis_ci
+coverage_service: coveralls
 xcodeproj: Travis-Fastlane-Slather.xcodeproj
 workspace: Travis-Fastlane-Slather.xcworkspace
 scheme: Travis-Fastlane-Slather
