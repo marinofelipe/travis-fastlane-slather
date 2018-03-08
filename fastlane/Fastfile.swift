@@ -14,10 +14,9 @@ class Fastfile: LaneFile {
         desc("Build project tests and generate coverage report")
         runTests(
             project: "Travis-Fastlane-Slather.xcodeproj",
-            device: "iPhone 7",
             scheme: "Travis-Fastlane-Slather",
             sdk: "iphonesimulator",
-            destination: "platform=iOS Simulator,name=iPhone 7,OS=11.2"
+            destination: "platform=iOS Simulator,name=iPhone 7"
         )
         slather(
             proj: "Travis-Fastlane-Slather.xcodeproj",
