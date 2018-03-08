@@ -12,11 +12,9 @@ class Fastfile: LaneFile {
     
 	func testLane() {
         desc("Build project tests and generate coverage report")
-        runTests(
+        scan(
             project: "Travis-Fastlane-Slather.xcodeproj",
-            scheme: "Travis-Fastlane-Slather",
-            sdk: "iphonesimulator",
-            destination: "platform=iOS Simulator, id=17D288FC-FA5E-4448-A422-1652F6211303"
+            scheme: "Travis-Fastlane-Slather"
         )
         slather(
             proj: "Travis-Fastlane-Slather.xcodeproj",
