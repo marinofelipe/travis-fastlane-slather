@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='Travis-Fastlane-SlatherTests.xctest' tests='2' failures='0'>
+  <testsuite name='Travis_Fastlane_SlatherTests.Travis_Fastlane_SlatherTests' tests='2' failures='0'>
+    <testcase classname='Travis_Fastlane_SlatherTests.Travis_Fastlane_SlatherTests' name='testExample' time='0.001'/>
+    <testcase classname='Travis_Fastlane_SlatherTests.Travis_Fastlane_SlatherTests' name='testPerformanceExample' time='0.408'/>
+  </testsuite>
+</testsuites>
