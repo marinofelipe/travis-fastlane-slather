@@ -16,7 +16,7 @@ class Fastfile: LaneFile {
             project: "Travis-Fastlane-Slather.xcodeproj",
             scheme: "Travis-Fastlane-Slather",
             sdk: "iphonesimulator",
-            destination: "platform=iOS Simulator,name=iPhone 7"
+            destination: "platform=iOS Simulator,id=17D288FC-FA5E-4448-A422-1652F6211303"
         )
         slather(
             proj: "Travis-Fastlane-Slather.xcodeproj",
