@@ -26,6 +26,7 @@ install:
 # - pod install
 
 script:
+- xcrun simctl list
 - fastlane testLane
 
 after_success: 
