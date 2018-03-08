@@ -26,7 +26,7 @@ install:
 - pod install
 
 script:
-fastlane testLane
+- fastlane testLane
 
 after_success: 
 - cd $TRAVIS_BUILD_DIR && slather
